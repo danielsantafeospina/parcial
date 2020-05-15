@@ -1,35 +1,28 @@
 
 
-$spaces: 20px;
-.my-todo-list {
- padding: $spaces;
- width: 400px;
- margin: $spaces auto;
- 
- .header {
-  margin-bottom: $spaces;
-  div {
-  display: flex;
-  input {
-  flex: 2;
-  margin-rigth: 10px;
+.container{  
+  background-color:blue;
+  border: red 2px solid;
+ font-weight: bold;
+   margin-left: auto;
+  margin-right: auto;
   }
-  }
-  }
-  }
+  .form-inline{
+    margin-bottom: 20px;
 
-.list-item {
-  display: flex;
-  align-items: center;
-    
- .left {
+    }
+  .row{
+  width: auto;
   margin-left: auto;
-  }
-  input {
-  margin-right: 10px;
-  }
-    
-   &.checked {
-    text-decoration: line-through;
-    }
-    }
+  margin-right: auto;
+   font-weight: bold;
+}
+
+.car{
+   width: auto;
+  margin-left: auto;
+  margin-right: auto;
+   background-color:blue;
+  border: red 2px solid;
+   font-weight: bold;
+}
