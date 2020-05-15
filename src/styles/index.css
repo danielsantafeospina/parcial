@@ -1,0 +1,35 @@
+
+
+$spaces: 20px;
+.my-todo-list {
+ padding: $spaces;
+ width: 400px;
+ margin: $spaces auto;
+ 
+ .header {
+  margin-bottom: $spaces;
+  div {
+  display: flex;
+  input {
+  flex: 2;
+  margin-rigth: 10px;
+  }
+  }
+  }
+  }
+
+.list-item {
+  display: flex;
+  align-items: center;
+    
+ .left {
+  margin-left: auto;
+  }
+  input {
+  margin-right: 10px;
+  }
+    
+   &.checked {
+    text-decoration: line-through;
+    }
+    }
